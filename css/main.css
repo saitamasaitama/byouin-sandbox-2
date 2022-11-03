@@ -22,7 +22,7 @@
 #Chumon{
   position:absolute;
   right: 18vw;
-  top: 10vw;
+  top: 5vw;
   color:black;
   font-size:1.5em;
   font-family:sans-serif;
@@ -43,6 +43,14 @@
 #ChumonKyaku{
     position:absolute;
     right:3vh;
-    top:15vw;
+    top:10vw;
     font-size:12vw;
+}
+
+#Items{
+  min-width:50vw;
+  max-width:50vw;
+  min-height:50vw;
+  font-size:10vw;
+  top:25vh;
 }
