@@ -1,0 +1,41 @@
+#Tokei {
+  font-size:12vw;
+}
+
+#Kyaku{
+  position:absolute;
+  left:30vw;
+  bottom:0;
+  min-width:70vw;
+  min-height:5em;
+  background-color:gray;
+
+}
+
+#Chumon{
+  position:absolute;
+  right: 18vw;
+  top: 10vw;
+  color:black;
+  font-size:1.5em;
+  font-family:sans-serif;
+  background-color:#06c755;
+  border-radius:0.5em;
+}
+
+#Chumon:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid #06c755;
+}
+
+#ChumonKyaku{
+    position:absolute;
+    right:3vh;
+    top:15vw;
+    font-size:12vw;
+}
