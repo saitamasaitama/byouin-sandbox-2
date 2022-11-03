@@ -12,6 +12,13 @@
 
 }
 
+#Jibun{
+  position:absolute;
+  bottom:0;
+  font-size:15vw;
+
+}
+
 #Chumon{
   position:absolute;
   right: 18vw;

@@ -7,11 +7,19 @@ const Jikoku=[
  "🕗","🕣","🕘","🕤",
  "🕙","🕥","🕚","🕦",
 ];
-const Kyaku=[
+const ItemMaster=[
+  "🌭","🍔","🥪","🥙",  
+  "🍣","🍛","🍜","🍲",
+   "🌮","🍕","🍟","🥞",
+   "🍰","🍩","🍙","🍨",
+];
+const KyakuMaster=[
+  "",
 
 ];
 const Tokei=$("#Tokei");
 const Chumon=$("#Chumon");
+const Items=$("#Items");
 
 function ChumonUpdate(){
 　Chumon.empty();
