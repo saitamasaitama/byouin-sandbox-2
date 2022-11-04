@@ -70,9 +70,14 @@ function TokeiTick(){
 }
 
 function KyakuUpdate(){
-  setTimeout(3000);
+ 
+  setTimeout(function(){
+   Kyaku.append(RandomKyaku());
+   KyakuUpdate();
+  },3000);
   
 }
 ChumonUpdate();
 ItemsReset();
+KyakuUpdate();
 setInterval(TokeiTick,TokeiInterval);
